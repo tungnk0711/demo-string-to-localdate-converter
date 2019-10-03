@@ -59,7 +59,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     public void addFormatters(FormatterRegistry registry) {
         StringToLocalDateConverter stringToLocalDateConverter = new
                 StringToLocalDateConverter("MM-dd-yyyy");
-        registry.addConverter(stringToLocalDateConverter);
+        //registry.addConverter(stringToLocalDateConverter);
     }
 
 }
